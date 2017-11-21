@@ -16077,3 +16077,6 @@ Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.3ms)
 Started GET "/songs/173" for 127.0.0.1 at 2017-11-21 19:46:42 +0000
 Processing by SongsController#show as HTML
   Parameters: {"id"=>"173"}
+  [1m[36mSong Load (0.5ms)[0m  [1mSELECT  "songs".* FROM "songs" WHERE "songs"."id" = ? LIMIT 1[0m  [["id", 173]]
+  Rendered songs/show.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 305ms (Views: 289.7ms | ActiveRecord: 0.5ms)
